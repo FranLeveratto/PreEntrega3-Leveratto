@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  font-family: "calibri";
+}
+
+footer {
+  background-color: #051224;
+  padding: 1em 0;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+
+.box {
+  color: white;
+}
+
+.red-social {
+  font-size: 2rem;
+  color: white;
+}
+
+.redes {
+  width: 180px;
+  height: 120px;
+  float: right;
+  margin-right: 40px;
+}
+
+header {
+  background: #051224;
+  width: 100%;
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.menu {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.img-nav-footer {
+  width: 180px;
+  height: 70px;
+  float: left;
+  padding: 8px;
+  margin-left: 40px;
+}
+
+nav {
+  float: right;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 12px 0;
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-content: center;
+}
+
+nav ul li a::before {
+  display: block;
+  content: "";
+  width: 0%;
+  background: white;
+  height: 5px;
+  top: 0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+
+.foto-alcaraz {
+  width: 350px;
+  display: flex;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.fotos-index {
+  width: 300px;
+  display: flex;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.fotos-resultados {
+  width: 200px;
+  display: flex;
+  justify-content: start;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  min-width: 400px;
+  max-width: 1000px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
